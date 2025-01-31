@@ -5,23 +5,26 @@
     	<meta name="description" content="This app helps youtubers pick the best background color for their videos">
     	<meta name="keywords" content="youtube, background, lights">
 
-		<title>Youtube Background Picker</title>
+		<title>Location Picker</title>
 
 		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<h1>Youtube Background Picker</h1>
-		<img src="img/chair.png" alt="generic youtube gaming chair">
-
-		<h2>Remote</h2>
-		<ul>
-			<li id="purple"></li>
-			<li id="green"></li>
-			<li id="blue"></li>
-			<li id="yellow"></li>
-		</ul>
+		<div id="photoBackground">
+			<h1>Location Picker</h1>
+			<h2>Where do you want to go?</h2>
+			<ul>
+				<li id="beach"><span class="emoji">🏖️</span>Beach</li>
+				<li id="city"><span class="emoji">🌆</span>City</li>
+				<li id="mountains"><span class="emoji">⛰️</span>Mountains</li>
+				<li id="desert"><span class="emoji">🏜️</span>Desert</li>
+				<li id="forest"><span class="emoji">🌳</span>Forest</li>
+			</ul>
+		</div>
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>

@@ -7,42 +7,71 @@
   box-sizing: border-box;
 }
 
+* {
+  font-family: 'Quicksand';
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
 h1, h2{
   text-align: center;
 }
-img{
-  display: block;
-  height: 300px;
-  margin: 0 auto;
+
+h1 {
+  font-size: 48px;
+  font-weight: 300;
+  margin-bottom: 0;
 }
-ul{
-  width: 99px;
+
+ul{  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
   height: 325px;
-  border: 3px solid black;
   margin: 0 auto;
   list-style: none;
   padding: 0;
-}
-li{
-  width: 94px;
-  height: 80px;
+  text-align: center;
+  margin-bottom: 240px;
 }
 
+.emoji {
+  display: block;
+  font-size: 48px;
+}
+li{
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+#beach:hover {
+  background-color:rgb(237, 239, 202);
+  cursor: pointer;
+}
+
+#city:hover {
+  background-color:rgb(202, 212, 239);
+  cursor: pointer;
+}
+
+#mountains:hover {
+  background-color:rgb(239, 225, 202);
+  cursor: pointer;
+}
+
+#desert:hover {
+  background-color:rgb(235, 236, 180);
+  cursor: pointer;
+}
+
+#forest:hover {
+  background-color:rgb(202, 239, 217);
+  cursor: pointer;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-#purple{
-  background: rgba(241,63,247,1);
-}
-#green{
-  background: rgba(0,253,81,1);
-}
-#blue{
-  background: rgba(0,254,255);
-}
-#yellow{
-  background: rgb(236, 253, 0);
-}
+

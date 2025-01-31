@@ -1,25 +1,46 @@
-document.getElementById('purple').onclick = partyPurple
-document.getElementById('green').onclick = partyGreen
-document.getElementById('blue').onclick = partyBlue
-document.getElementById('yellow').onclick = partyYellow
+document.getElementById('beach').onclick = beachTime
+document.getElementById('city').onclick = cityTime
+document.getElementById('mountains').onclick = mountainTime
+document.getElementById('desert').onclick = desertTime
+document.getElementById('forest').onclick = forestTime
 
 
-function partyPurple() {
-  document.querySelector('body').style.backgroundColor = 'rgba(241,63,247,1)'
-  document.querySelector('body').style.color = 'white'
+function beachTime() {
+  document.querySelector('body').style.background = "url(../img/Beach.png) no-repeat";
+  document.querySelector('body').style.backgroundSize="100% 100%";
+  document.querySelector('body').style.color = 'white';
+  document.querySelector('li').style.fontWeight = "400";
+  document.querySelector("#beach").style.fontWeight = '800';
 }
 
-function partyGreen() {
-  document.querySelector('body').style.backgroundColor = 'rgba(0,253,81,1)'
-  document.querySelector('body').style.color = 'white'
+function cityTime() {
+  document.querySelector('body').style.background = "url(../img/city.png) no-repeat";
+  document.querySelector('body').style.backgroundSize="100% 100%";
+  document.querySelector('body').style.color = 'white';
+  document.querySelector('li').style.fontWeight = "400";
+  document.querySelector("#city").style.fontWeight = '800';
 }
 
-function partyBlue() {
-  document.querySelector('body').style.backgroundColor = 'rgba(0,254,255)'
-  document.querySelector('body').style.color = 'white'
+function mountainTime() {
+  document.querySelector('body').style.background = "url(../img/Mountain.png) no-repeat";
+  document.querySelector('body').style.backgroundSize="100% 100%";
+  document.querySelector('body').style.color = 'white';
+  document.querySelector('li').style.fontWeight = "400";
+  document.querySelector("#mountains").style.fontWeight = '800';
 }
 
-function partyYellow() {
-  document.querySelector('body').style.backgroundColor = 'rgb(236, 253, 0)'
-  document.querySelector('body').style.color = 'white'
+function desertTime() {
+  document.querySelector('body').style.background = "url(../img/Desert.png) no-repeat";
+  document.querySelector('body').style.backgroundSize="100% 100%";
+  document.querySelector('body').style.color = 'white';
+  document.querySelector('li').style.fontWeight = "400";
+  document.querySelector("#desert").style.fontWeight = '800';
+}
+
+function forestTime() {
+  document.querySelector('body').style.background = "url(../img/Forest.png) no-repeat";
+  document.querySelector('body').style.backgroundSize="100% 100%";
+  document.querySelector('body').style.color = 'white';
+  document.querySelector('li').style.fontWeight = "400";
+  document.querySelector("#forest").style.fontWeight = '800';
 }
